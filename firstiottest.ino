@@ -9,11 +9,11 @@
 #include <base64.h>
 
 const char* ssid     = "Infinix ZERO 5G";
-const char* password = "87654321";
-const char* account_sid = "ACb3030250e20b7fc0449faecb76056549";
-const char* auth_token = "b16bad3042efbe70e812f31c2b251da9";
-const char* twilio_phone_number = "+15076876964";
-const char* recipient_phone_number = "+919654937307";
+const char* password = "*********";
+const char* account_sid = "*********************";
+const char* auth_token = "***********************";
+const char* twilio_phone_number = "***********4";
+const char* recipient_phone_number = "+**************";
 
 #define CRASH_THRESHOLD 18 
 
@@ -64,36 +64,7 @@ void loop() {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// to check for the number of sattelites
 if (gps.location.isValid()) {
   int numSatellites = gps.satellites.value();
   Serial.print("Number of satellites: ");
